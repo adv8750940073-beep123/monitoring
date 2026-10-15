@@ -1,0 +1,1200 @@
+import { LegalActItem, LegalSectionItem } from "@/types";
+
+export const BUILTIN_LEGAL_ACTS: LegalActItem[] = [
+  {
+    id: "act_bns_2023",
+    title: "The Bharatiya Nyaya Sanhita, 2023",
+    shortName: "BNS, 2023",
+    actNumber: "Act No. 45 of 2023",
+    enactmentDate: "25th December, 2023",
+    effectiveDate: "1st July, 2024",
+    category: "CRIMINAL_CODE",
+    categoryLabel: "Substantive Criminal Law",
+    totalSections: 358,
+    totalChapters: 20,
+    fileFormat: "PDF",
+    fileName: "The_Bharatiya_Nyaya_Sanhita_2023.pdf",
+    fileSize: "1.2 MB",
+    fileUrl: "/documents/acts/The_Bharatiya_Nyaya_Sanhita_2023.pdf",
+    preambleVerbatim: `THE BHARATIYA NYAYA SANHITA, 2023\n(ACT NO. 45 OF 2023)\n[25th December, 2023]\n\nAn Act to consolidate and amend the provisions relating to offences and for matters connected therewith or incidental thereto.\n\nBE it enacted by Parliament in the Seventy-fourth Year of the Republic of India as follows:—\n\nCHAPTER I - PRELIMINARY\n1. Short title, commencement and application.—\n(1) This Act may be called the Bharatiya Nyaya Sanhita, 2023.\n(2) It shall come into force on the 1st day of July, 2024.\n(3) Every person shall be liable to punishment under this Sanhita and not otherwise for every act or omission contrary to the provisions thereof, of which he shall be guilty within India.\n(4) Any person liable, by any law for the time being in force in India, to be tried for an offence committed beyond India shall be dealt with according to the provisions of this Sanhita for any act committed beyond India in the same manner as if such act had been committed within India.\n(5) The provisions of this Sanhita apply also to any offence committed by—\n(a) any citizen of India in any place without and beyond India;\n(b) any person on any ship or aircraft registered in India wherever it may be;\n(c) any person in any place without and beyond India committing offence targeting a computer resource located in India.`,
+    description: "An Act to consolidate and amend the provisions relating to offences and for matters connected therewith or incidental thereto. Repeals and replaces the Indian Penal Code, 1860 with modern definitions, enhanced penalties, and citizen-centric provisions.",
+    chapters: [
+      { chapterNumber: "Chapter I", title: "Preliminary", sectionsRange: "Sec 1 - 3" },
+      { chapterNumber: "Chapter II", title: "Of Punishments", sectionsRange: "Sec 4 - 13" },
+      { chapterNumber: "Chapter III", title: "General Exceptions & Right of Private Defence", sectionsRange: "Sec 14 - 44" },
+      { chapterNumber: "Chapter IV", title: "Of Abetment, Criminal Conspiracy and Attempt", sectionsRange: "Sec 45 - 62" },
+      { chapterNumber: "Chapter V", title: "Of Offences Against Woman and Child", sectionsRange: "Sec 63 - 99" },
+      { chapterNumber: "Chapter VI", title: "Of Offences Affecting the Human Body", sectionsRange: "Sec 100 - 146" },
+      { chapterNumber: "Chapter VII", title: "Of Offences Against the State", sectionsRange: "Sec 147 - 158" },
+      { chapterNumber: "Chapter VIII", title: "Of Offences Relating to the Army, Navy and Air Force", sectionsRange: "Sec 159 - 168" },
+      { chapterNumber: "Chapter IX", title: "Of Offences Relating to Elections", sectionsRange: "Sec 169 - 177" },
+      { chapterNumber: "Chapter X", title: "Of Offences Relating to Coin, Currency-Notes, Bank-Notes & Stamps", sectionsRange: "Sec 178 - 188" },
+      { chapterNumber: "Chapter XI", title: "Of Offences Against the Public Tranquillity", sectionsRange: "Sec 189 - 197" },
+      { chapterNumber: "Chapter XII", title: "Of Offences By or Relating to Public Servants", sectionsRange: "Sec 198 - 205" },
+      { chapterNumber: "Chapter XIII", title: "Of Contempts of the Lawful Authority of Public Servants", sectionsRange: "Sec 206 - 226" },
+      { chapterNumber: "Chapter XIV", title: "Of False Evidence and Offences Against Public Justice", sectionsRange: "Sec 227 - 269" },
+      { chapterNumber: "Chapter XV", title: "Of Offences Affecting Public Health, Safety, Convenience & Morals", sectionsRange: "Sec 270 - 297" },
+      { chapterNumber: "Chapter XVI", title: "Of Offences Relating to Religion", sectionsRange: "Sec 298 - 302" },
+      { chapterNumber: "Chapter XVII", title: "Of Offences Against Property (Theft, Extortion, Robbery, Cheating)", sectionsRange: "Sec 303 - 334" },
+      { chapterNumber: "Chapter XVIII", title: "Of Offences Relating to Documents and Property Marks (Forgery)", sectionsRange: "Sec 335 - 350" },
+      { chapterNumber: "Chapter XIX", title: "Of Criminal Intimidation, Insult, Annoyance, Defamation", sectionsRange: "Sec 351 - 356" },
+      { chapterNumber: "Chapter XX", title: "Repeal and Savings", sectionsRange: "Sec 357 - 358" },
+    ],
+    keySections: [
+      {
+        sectionNumber: "4",
+        title: "Punishments",
+        chapter: "Chapter II",
+        description: "Offenders are liable to Death, Imprisonment for life, Imprisonment (Rigorous/Simple), Forfeiture of property, Fine, and Community Service.",
+        punishment: "As prescribed per offence",
+      },
+      {
+        sectionNumber: "63",
+        title: "Rape defined",
+        chapter: "Chapter V",
+        description: "Definition of offence of rape with seven specific circumstances where lack of consent or invalid consent is established.",
+      },
+      {
+        sectionNumber: "64(1)",
+        title: "Punishment for rape",
+        chapter: "Chapter V",
+        description: "Whoever commits rape shall be punished with rigorous imprisonment for not less than 10 years extending to life imprisonment and fine.",
+        punishment: "Rigorous imprisonment 10 years to Life, and fine",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Court of Session",
+      },
+      {
+        sectionNumber: "69",
+        title: "Sexual intercourse by employing deceitful means or false promise of marriage",
+        chapter: "Chapter V",
+        description: "Having sexual intercourse with a woman by deceitful means (inducement, false promise of employment/promotion) or false promise to marry without intention of fulfilling it.",
+        punishment: "Imprisonment up to 10 years and fine",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Court of Session",
+      },
+      {
+        sectionNumber: "70(1)",
+        title: "Gang rape",
+        chapter: "Chapter V",
+        description: "Rape committed by one or more persons constituting a group or acting in furtherance of common intention.",
+        punishment: "Rigorous imprisonment not less than 20 years to Life (remainder of natural life), and fine",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Court of Session",
+      },
+      {
+        sectionNumber: "74",
+        title: "Assault or criminal force to woman with intent to outrage her modesty",
+        chapter: "Chapter V",
+        description: "Assaulting or using criminal force to any woman intending to outrage or knowing it to be likely to outrage her modesty (replaces 354 IPC).",
+        punishment: "Imprisonment 1 to 5 years, and fine",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Any Magistrate",
+      },
+      {
+        sectionNumber: "75",
+        title: "Sexual harassment",
+        chapter: "Chapter V",
+        description: "Unwelcome physical contact, advances, demand/request for sexual favours, showing pornography, or sexually coloured remarks.",
+        punishment: "Imprisonment up to 3 years or fine (or 1 year for remarks)",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Court of Session",
+      },
+      {
+        sectionNumber: "78",
+        title: "Stalking",
+        chapter: "Chapter V",
+        description: "Following or contacting a woman repeatedly despite clear disinterest, or monitoring internet/electronic communication.",
+        punishment: "First offence: Up to 3 years (Bailable); Repeat: Up to 5 years (Non-bailable)",
+        cognizable: "Cognizable",
+        bailable: "Bailable",
+        triableBy: "Any Magistrate",
+      },
+      {
+        sectionNumber: "80",
+        title: "Dowry death",
+        chapter: "Chapter V",
+        description: "Death of a woman caused by burns or bodily injury occurring within seven years of marriage with cruelty/harassment for dowry.",
+        punishment: "Imprisonment 7 years to Life imprisonment",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Court of Session",
+      },
+      {
+        sectionNumber: "85",
+        title: "Husband or relative of husband subjecting woman to cruelty",
+        chapter: "Chapter V",
+        description: "Subjecting married woman to wilful conduct driving suicide, grave injury, or harassment for unlawful property demand (replaces 498A IPC).",
+        punishment: "Imprisonment up to 3 years and fine",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Magistrate of first class",
+      },
+      {
+        sectionNumber: "103(1)",
+        title: "Punishment for murder",
+        chapter: "Chapter VI",
+        description: "Whoever commits murder shall be punished with death or imprisonment for life, and shall also be liable to fine (replaces 302 IPC).",
+        punishment: "Death or Imprisonment for life, and fine",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Court of Session",
+      },
+      {
+        sectionNumber: "103(2)",
+        title: "Murder by group of five or more on grounds of race, caste, sex, place of birth (Mob Lynching)",
+        chapter: "Chapter VI",
+        description: "When a group of five or more persons acting in concert commits murder on grounds of race, caste, community, sex, place of birth, or belief.",
+        punishment: "Death or Imprisonment for life, and fine",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Court of Session",
+      },
+      {
+        sectionNumber: "106(1)",
+        title: "Causing death by negligence",
+        chapter: "Chapter VI",
+        description: "Causing death of any person by rash or negligent act not amounting to culpable homicide (replaces 304A IPC).",
+        punishment: "Imprisonment up to 5 years and fine (Medical practitioner: 2 years)",
+        cognizable: "Cognizable",
+        bailable: "Bailable",
+        triableBy: "Magistrate of first class",
+      },
+      {
+        sectionNumber: "106(2)",
+        title: "Hit and run - Rash and negligent driving causing death and escaping",
+        chapter: "Chapter VI",
+        description: "Causing death by rash and negligent driving and escaping without reporting to police officer or Magistrate soon after incident.",
+        punishment: "Imprisonment up to 10 years, and fine",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Magistrate of first class",
+      },
+      {
+        sectionNumber: "111",
+        title: "Organised crime",
+        chapter: "Chapter VI",
+        description: "Continuing unlawful activity by syndicate: kidnapping, robbery, extortion, land grabbing, contract killing, cyber-crimes, illicit goods.",
+        punishment: "Death or Life imprisonment (if death caused), min 5 years to Life in other cases + min ₹5 lakh fine",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Court of Session",
+      },
+      {
+        sectionNumber: "112",
+        title: "Petty organised crime",
+        chapter: "Chapter VI",
+        description: "Theft, snatching, cheating, ticket scalping, betting, paper leaks, ATM skimming, shoplifting committed as member of gang/group.",
+        punishment: "Imprisonment 1 to 7 years, and fine",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Magistrate of first class",
+      },
+      {
+        sectionNumber: "115(2)",
+        title: "Voluntarily causing hurt",
+        chapter: "Chapter VI",
+        description: "Whoever voluntarily causes bodily pain, disease or infirmity to any person (replaces 323 IPC).",
+        punishment: "Imprisonment up to 1 year or fine up to ₹10,000, or both",
+        cognizable: "Non-cognizable",
+        bailable: "Bailable",
+        triableBy: "Any Magistrate",
+      },
+      {
+        sectionNumber: "117(2)",
+        title: "Voluntarily causing grievous hurt",
+        chapter: "Chapter VI",
+        description: "Voluntarily causing grievous hurt involving permanent privation of sight/hearing, fracture, disfiguration, or 15 days severe pain (replaces 325 IPC).",
+        punishment: "Imprisonment up to 7 years and fine",
+        cognizable: "Cognizable",
+        bailable: "Bailable",
+        triableBy: "Any Magistrate",
+      },
+      {
+        sectionNumber: "118(1)",
+        title: "Voluntarily causing hurt by dangerous weapons or means",
+        chapter: "Chapter VI",
+        description: "Causing hurt by shooting, stabbing, cutting instruments, fire, poison, corrosive substance, or explosive (replaces 324 IPC).",
+        punishment: "Imprisonment up to 3 years or fine up to ₹20,000, or both",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Any Magistrate",
+      },
+      {
+        sectionNumber: "143",
+        title: "Trafficking of person",
+        chapter: "Chapter VI",
+        description: "Recruiting, transporting, harbouring, transferring persons for exploitation using threats, force, abduction, fraud, or abuse of power.",
+        punishment: "Rigorous imprisonment 7 to 10 years and fine (Life for trafficking children)",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Court of Session",
+      },
+      {
+        sectionNumber: "152",
+        title: "Act endangering sovereignty, unity and integrity of India",
+        chapter: "Chapter VII",
+        description: "Exciting secession, armed rebellion, subversive activities, or encouraging feelings of separatist activities (modernised treason provision replacing 124A IPC).",
+        punishment: "Imprisonment for life or up to 7 years, and fine",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Court of Session",
+      },
+      {
+        sectionNumber: "189",
+        title: "Unlawful assembly",
+        chapter: "Chapter XI",
+        description: "Assembly of five or more persons with common object to overawe Government, resist legal process, commit mischief or enforce alleged rights by force.",
+        punishment: "Imprisonment up to 6 months or fine, or both",
+        cognizable: "Cognizable",
+        bailable: "Bailable",
+        triableBy: "Any Magistrate",
+      },
+      {
+        sectionNumber: "191",
+        title: "Rioting",
+        chapter: "Chapter XI",
+        description: "Force or violence used by an unlawful assembly or any member thereof in prosecution of common object (replaces 146/147 IPC).",
+        punishment: "Imprisonment up to 2 years, or fine, or both (5 years if armed with deadly weapon)",
+        cognizable: "Cognizable",
+        bailable: "Bailable",
+        triableBy: "Any Magistrate",
+      },
+      {
+        sectionNumber: "223",
+        title: "Disobedience to order duly promulgated by public servant",
+        chapter: "Chapter XIII",
+        description: "Disobedience to lawful order under section 163 BNSS causing obstruction, annoyance, danger to life or riot (replaces 188 IPC).",
+        punishment: "Simple imprisonment up to 6 months and fine ₹2,500; 1 year if danger to life/riot",
+        cognizable: "Cognizable",
+        bailable: "Bailable",
+        triableBy: "Any Magistrate",
+      },
+      {
+        sectionNumber: "281",
+        title: "Rash driving or riding on a public way",
+        chapter: "Chapter XV",
+        description: "Driving vehicle or riding on public way in a manner so rash or negligent as to endanger human life or cause hurt (replaces 279 IPC).",
+        punishment: "Imprisonment up to 6 months or fine up to ₹1,000, or both",
+        cognizable: "Cognizable",
+        bailable: "Bailable",
+        triableBy: "Any Magistrate",
+      },
+      {
+        sectionNumber: "303(2)",
+        title: "Theft",
+        chapter: "Chapter XVII",
+        description: "Dishonestly moving movable property out of possession without consent (replaces 379 IPC). Community service available for first-time theft under ₹5,000 upon property return.",
+        punishment: "Imprisonment up to 3 years or fine, or both (Community service if < ₹5,000)",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Any Magistrate",
+      },
+      {
+        sectionNumber: "304",
+        title: "Snatching",
+        chapter: "Chapter XVII",
+        description: "Theft is snatching if offender suddenly, quickly, or forcibly seizes, grabs or takes away movable property (new specific provision).",
+        punishment: "Imprisonment up to 3 years and fine",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Any Magistrate",
+      },
+      {
+        sectionNumber: "305",
+        title: "Theft in dwelling house, means of transport, or place of worship",
+        chapter: "Chapter XVII",
+        description: "Theft in building, tent, vessel used as human dwelling, or vehicle, idol/icon in place of worship, or Government property (replaces 380 IPC).",
+        punishment: "Imprisonment up to 7 years and fine",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Any Magistrate",
+      },
+      {
+        sectionNumber: "308",
+        title: "Extortion",
+        chapter: "Chapter XVII",
+        description: "Intentionally putting person in fear of injury to induce delivery of property or valuable security (replaces 384 IPC).",
+        punishment: "Imprisonment up to 7 years, or fine, or both",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Magistrate of first class",
+      },
+      {
+        sectionNumber: "309",
+        title: "Robbery",
+        chapter: "Chapter XVII",
+        description: "Theft or extortion involving voluntarily causing or attempting death, hurt, or wrongful restraint (replaces 390/392 IPC).",
+        punishment: "Rigorous imprisonment up to 10 years and fine (14 years on highway)",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Magistrate of first class",
+      },
+      {
+        sectionNumber: "310",
+        title: "Dacoity",
+        chapter: "Chapter XVII",
+        description: "Five or more persons conjointly committing or attempting to commit robbery (replaces 391/395 IPC).",
+        punishment: "Imprisonment for life, or rigorous imprisonment for 10 years and fine",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Court of Session",
+      },
+      {
+        sectionNumber: "316(2)",
+        title: "Criminal breach of trust",
+        chapter: "Chapter XVII",
+        description: "Dishonest misappropriation or conversion of property entrusted to a person (replaces 406 IPC).",
+        punishment: "Imprisonment up to 5 years, or fine, or both",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Magistrate of first class",
+      },
+      {
+        sectionNumber: "317(2)",
+        title: "Dishonestly receiving stolen property",
+        chapter: "Chapter XVII",
+        description: "Dishonestly receiving or retaining stolen property knowing or having reason to believe it to be stolen (replaces 411 IPC).",
+        punishment: "Imprisonment up to 3 years, or fine, or both",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Any Magistrate",
+      },
+      {
+        sectionNumber: "318(4)",
+        title: "Cheating and dishonestly inducing delivery of property",
+        chapter: "Chapter XVII",
+        description: "Cheating and dishonestly inducing delivery of property or alteration of valuable security (replaces 420 IPC).",
+        punishment: "Imprisonment up to 7 years and fine",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Magistrate of first class",
+      },
+      {
+        sectionNumber: "324",
+        title: "Mischief",
+        chapter: "Chapter XVII",
+        description: "Causing destruction or diminution of value or utility of property with intent to cause wrongful loss (replaces 425/427 IPC).",
+        punishment: "Imprisonment up to 6 months to 5 years depending on damage amount",
+        cognizable: "Cognizable",
+        bailable: "Bailable",
+        triableBy: "Any Magistrate",
+      },
+      {
+        sectionNumber: "331(1)",
+        title: "Lurking house-trespass or house-breaking",
+        chapter: "Chapter XVII",
+        description: "Committing house-trespass having taken precautions to conceal it, or by breaking open lock/passage (replaces 454/457 IPC).",
+        punishment: "Imprisonment up to 2 years (night: 3 years; with theft: up to 14 years)",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Any Magistrate",
+      },
+      {
+        sectionNumber: "336",
+        title: "Forgery",
+        chapter: "Chapter XVIII",
+        description: "Making false document or electronic record with intent to cause damage or defraud (replaces 465 IPC).",
+        punishment: "Imprisonment up to 2 years, or fine, or both (7 years if for cheating)",
+        cognizable: "Non-cognizable",
+        bailable: "Bailable",
+        triableBy: "Magistrate of first class",
+      },
+      {
+        sectionNumber: "351(2)",
+        title: "Criminal intimidation",
+        chapter: "Chapter XIX",
+        description: "Threatening another with injury to person, reputation or property to cause alarm (replaces 506 IPC).",
+        punishment: "Imprisonment up to 2 years, or fine, or both (7 years if threat of death/grievous hurt)",
+        cognizable: "Non-cognizable",
+        bailable: "Bailable",
+        triableBy: "Any Magistrate",
+      },
+      {
+        sectionNumber: "356",
+        title: "Defamation",
+        chapter: "Chapter XIX",
+        description: "Making or publishing imputation intending to harm reputation (replaces 499/500 IPC). Community service available as penalty.",
+        punishment: "Simple imprisonment up to 2 years, or fine, or both, or community service",
+        cognizable: "Non-cognizable",
+        bailable: "Bailable",
+        triableBy: "Magistrate of first class",
+      },
+    ],
+  },
+  {
+    id: "act_bnss_2023",
+    title: "The Bharatiya Nagarik Suraksha Sanhita, 2023",
+    shortName: "BNSS, 2023",
+    actNumber: "Act No. 46 of 2023",
+    enactmentDate: "25th December, 2023",
+    effectiveDate: "1st July, 2024",
+    category: "PROCEDURAL_CODE",
+    categoryLabel: "Criminal Procedure Code",
+    totalSections: 531,
+    totalChapters: 39,
+    fileFormat: "PDF",
+    fileName: "The_Bharatiya_Nagarik_Suraksha_Sanhita_2023.pdf",
+    fileSize: "2.8 MB",
+    fileUrl: "/documents/acts/The_Bharatiya_Nagarik_Suraksha_Sanhita_2023.pdf",
+    preambleVerbatim: `THE BHARATIYA NAGARIK SURAKSHA SANHITA, 2023\n(ACT NO. 46 OF 2023)\n[25th December, 2023]\n\nAn Act to consolidate and amend the law relating to Criminal Procedure.\n\nBE it enacted by Parliament in the Seventy-fourth Year of the Republic of India as follows:—\n\nCHAPTER I - PRELIMINARY\n1. Short title, extent and commencement.—\n(1) This Act may be called the Bharatiya Nagarik Suraksha Sanhita, 2023.\n(2) It extends to the whole of India.\n(3) It shall come into force on the 1st day of July, 2024.\n\n2. Definitions.—\n(1) In this Sanhita, unless the context otherwise requires,—\n(a) "audio-video electronic means" shall include use of any communication device for the purposes of video conferencing, recording of processes including search and seizure, evidence, transmission of electronic communication and for such other purposes and by such other means as the State Government may, by rules provide;\n(b) "bailable offence" means an offence which is shown as bailable in the First Schedule, or which is made bailable by any other law for the time being in force; and "non-bailable offence" means any other offence;\n(c) "charge" includes any head of charge when the charge contains more heads than one;\n(d) "cognizable offence" means an offence for which, and "cognizable case" means a case in which, a police officer may, in accordance with the First Schedule or under any other law for the time being in force, arrest without warrant;\n(g) "electronic communication" means the communication of any verbal, written, video work or information made through any electronic device including telephone, cell phone, wireless, computer resource;\n(h) "inquiry" means every inquiry, other than a trial, conducted under this Sanhita by a Magistrate or Court;\n(i) "investigation" includes all the proceedings under this Sanhita for the collection of evidence conducted by a police officer or by any person (other than a Magistrate) who is authorised by a Magistrate in this behalf.`,
+    description: "An Act to consolidate and amend the law relating to Criminal Procedure. Replaces the Code of Criminal Procedure, 1973 with electronic summons, audio-video search recording, 14-day preliminary enquiry, timeline mandates, and 58 official statutory forms.",
+    chapters: [
+      { chapterNumber: "Chapter I", title: "Preliminary & Definitions", sectionsRange: "Sec 1 - 5" },
+      { chapterNumber: "Chapter II", title: "Constitution of Criminal Courts and Offices", sectionsRange: "Sec 6 - 20" },
+      { chapterNumber: "Chapter III", title: "Power of Courts", sectionsRange: "Sec 21 - 29" },
+      { chapterNumber: "Chapter IV", title: "Powers of Superior Police Officers & Aid to Police", sectionsRange: "Sec 30 - 34" },
+      { chapterNumber: "Chapter V", title: "Arrest of Persons & Safeguards", sectionsRange: "Sec 35 - 62" },
+      { chapterNumber: "Chapter VI", title: "Processes to Compel Appearance (Summons & Warrants)", sectionsRange: "Sec 63 - 93" },
+      { chapterNumber: "Chapter VII", title: "Processes to Compel Production of Things & Search Warrants", sectionsRange: "Sec 94 - 110" },
+      { chapterNumber: "Chapter VIII", title: "Reciprocal Arrangements & Forfeiture of Property", sectionsRange: "Sec 111 - 124" },
+      { chapterNumber: "Chapter IX", title: "Security for Keeping Peace & Good Behaviour", sectionsRange: "Sec 125 - 143" },
+      { chapterNumber: "Chapter X", title: "Order for Maintenance of Wives, Children and Parents", sectionsRange: "Sec 144 - 147" },
+      { chapterNumber: "Chapter XI", title: "Maintenance of Public Order & Tranquillity", sectionsRange: "Sec 148 - 167" },
+      { chapterNumber: "Chapter XII", title: "Preventive Action of the Police", sectionsRange: "Sec 168 - 172" },
+      { chapterNumber: "Chapter XIII", title: "Information to Police & Powers to Investigate (FIR/Inquiry)", sectionsRange: "Sec 173 - 196" },
+      { chapterNumber: "Chapter XIV", title: "Jurisdiction of Criminal Courts in Inquiries and Trials", sectionsRange: "Sec 197 - 209" },
+      { chapterNumber: "Chapter XV", title: "Conditions Requisite for Initiation of Proceedings", sectionsRange: "Sec 210 - 222" },
+      { chapterNumber: "Chapter XVI", title: "Complaints to Magistrates", sectionsRange: "Sec 223 - 226" },
+      { chapterNumber: "Chapter XVII", title: "Commencement of Proceedings Before Magistrates", sectionsRange: "Sec 227 - 233" },
+      { chapterNumber: "Chapter XVIII", title: "The Charge & Joinder of Charges", sectionsRange: "Sec 234 - 247" },
+      { chapterNumber: "Chapter XIX", title: "Trial Before a Court of Session", sectionsRange: "Sec 248 - 260" },
+      { chapterNumber: "Chapter XX", title: "Trial of Warrant-Cases by Magistrates", sectionsRange: "Sec 261 - 273" },
+      { chapterNumber: "Chapter XXI", title: "Trial of Summons-Cases by Magistrates", sectionsRange: "Sec 274 - 282" },
+      { chapterNumber: "Chapter XXII", title: "Summary Trials", sectionsRange: "Sec 283 - 288" },
+      { chapterNumber: "Chapter XXIII", title: "Plea Bargaining", sectionsRange: "Sec 289 - 300" },
+      { chapterNumber: "Chapter XXXV", title: "Provisions as to Bail and Bonds", sectionsRange: "Sec 478 - 496" },
+      { chapterNumber: "Chapter XXXVI", title: "Disposal of Property", sectionsRange: "Sec 497 - 505" },
+      { chapterNumber: "Chapter XXXIX", title: "Miscellaneous & Electronic Mode Proceedings", sectionsRange: "Sec 520 - 531" },
+    ],
+    keySections: [
+      {
+        sectionNumber: "35(1)",
+        title: "When police may arrest without warrant",
+        chapter: "Chapter V",
+        description: "Powers of police to arrest without warrant for cognizable offences punishable with >= 7 years or under conditions in section 35(1)(b).",
+      },
+      {
+        sectionNumber: "35(3)",
+        title: "Mandatory Notice for Appearance instead of Arrest",
+        chapter: "Chapter V",
+        description: "For offences punishable with less than 7 years, police officer shall issue notice directing accused to appear before him instead of making arrest.",
+      },
+      {
+        sectionNumber: "36",
+        title: "Procedure of arrest and duties of officer making arrest",
+        chapter: "Chapter V",
+        description: "Accurate visible identification name, preparation of arrest memo attested by witness/family member, intimation to relatives.",
+      },
+      {
+        sectionNumber: "37",
+        title: "Designated police officer & District Police Control Room",
+        chapter: "Chapter V",
+        description: "Every police station and district to have designated officer (ASI rank) to maintain and digitally display arrested persons details.",
+      },
+      {
+        sectionNumber: "43(3)",
+        title: "Handcuffing guidelines",
+        chapter: "Chapter V",
+        description: "Police officer may use handcuffs for habitual offenders, escaped convicts, or perpetrators of organised crime, terrorism, rape, murder.",
+      },
+      {
+        sectionNumber: "58",
+        title: "Arrested person not to be detained more than twenty-four hours",
+        chapter: "Chapter V",
+        description: "No police officer shall detain in custody a person arrested without warrant for a longer period than twenty-four hours exclusive of journey time.",
+      },
+      {
+        sectionNumber: "63",
+        title: "Form of summons (including electronic format)",
+        chapter: "Chapter VI",
+        description: "Summons can be issued in writing duplicate or encrypted electronic communication bearing image of court seal or digital signature.",
+      },
+      {
+        sectionNumber: "84",
+        title: "Proclamation for person absconding",
+        chapter: "Chapter VI",
+        description: "Court may publish written proclamation requiring absconder to appear within 30 days (replaces Sec 82 CrPC).",
+      },
+      {
+        sectionNumber: "85",
+        title: "Attachment of property of person absconding",
+        chapter: "Chapter VI",
+        description: "Court issuing proclamation may order attachment of movable or immovable property belonging to proclaimed absconder (replaces Sec 83 CrPC).",
+      },
+      {
+        sectionNumber: "94",
+        title: "Summons to produce document or digital communication device",
+        chapter: "Chapter VII",
+        description: "Court or officer in charge of police station may issue summons/order in physical or electronic form to produce documents or electronic devices containing digital evidence.",
+      },
+      {
+        sectionNumber: "105",
+        title: "Recording of search and seizure through audio-video electronic means",
+        chapter: "Chapter VII",
+        description: "Mandatory videography/audio-video recording of search, seizure list preparation, and witness signatures via mobile phone without delay.",
+      },
+      {
+        sectionNumber: "144",
+        title: "Order for maintenance of wives, children and parents",
+        chapter: "Chapter X",
+        description: "Magistrate order for monthly maintenance allowance and interim maintenance to wife, children, or elderly parents (replaces Sec 125 CrPC).",
+      },
+      {
+        sectionNumber: "163",
+        title: "Power to issue order in urgent cases of nuisance or apprehended danger",
+        chapter: "Chapter XI",
+        description: "Executive Magistrate order directing persons to abstain from certain acts in urgent cases of nuisance or danger to peace (replaces Section 144 CrPC).",
+      },
+      {
+        sectionNumber: "173(1)",
+        title: "Information in cognizable cases (FIR / e-FIR / Zero FIR)",
+        chapter: "Chapter XIII",
+        description: "Information of cognizable offence can be given orally or electronically. e-FIR recorded and signed within 3 days. Free copy provided immediately.",
+      },
+      {
+        sectionNumber: "173(3)",
+        title: "Preliminary Enquiry (14 Days Window)",
+        chapter: "Chapter XIII",
+        description: "For offences punishable with 3 to 7 years, officer in charge of police station with DSP permission may conduct preliminary enquiry within 14 days before registering FIR.",
+      },
+      {
+        sectionNumber: "176(3)",
+        title: "Mandatory forensic crime scene visit for offences punishable with 7+ years",
+        chapter: "Chapter XIII",
+        description: "Forensic experts must visit scene of crime and mobile videography of forensic collection is mandatory for all offences carrying 7+ years punishment.",
+      },
+      {
+        sectionNumber: "180",
+        title: "Examination of witnesses by police",
+        chapter: "Chapter XIII",
+        description: "Police officer examining witnesses may record statement in writing or by audio-video electronic means. Statement of woman recorded by woman officer.",
+      },
+      {
+        sectionNumber: "183",
+        title: "Recording of confessions and statements by Magistrate",
+        chapter: "Chapter XIII",
+        description: "Recording of statements and confessions by Magistrate during investigation, optionally through audio-video electronic means (replaces Sec 164 CrPC).",
+      },
+      {
+        sectionNumber: "187",
+        title: "Procedure when investigation cannot be completed in 24 hours (Remand)",
+        chapter: "Chapter XIII",
+        description: "Police custody remand up to 15 days in whole or in parts during initial 40 or 60 days of 60/90 days detention period (replaces Sec 167 CrPC).",
+      },
+      {
+        sectionNumber: "192",
+        title: "Diary of proceedings in investigation (Case Diary)",
+        chapter: "Chapter XIII",
+        description: "Every police officer shall day by day enter proceedings in investigation in duly paginated volume (replaces Sec 172 CrPC).",
+      },
+      {
+        sectionNumber: "193",
+        title: "Police report on completion of investigation (Challan / Charge Sheet)",
+        chapter: "Chapter XIII",
+        description: "Final investigation report to Magistrate. Police officer shall inform progress within 90 days to complainant or victim (replaces Sec 173 CrPC).",
+      },
+      {
+        sectionNumber: "356",
+        title: "Inquiry, trial or judgment in absentia of proclaimed offender",
+        chapter: "Chapter XXVI",
+        description: "Trial and judgment in absentia can proceed against absconding proclaimed offenders who evade trial after 90 days of charge framing.",
+      },
+      {
+        sectionNumber: "359",
+        title: "Compounding of offences",
+        chapter: "Chapter XXVI",
+        description: "Statutory table of compoundable offences by parties with or without court permission (replaces Sec 320 CrPC).",
+      },
+      {
+        sectionNumber: "479",
+        title: "Maximum period for which undertrial prisoner can be detained",
+        chapter: "Chapter XXXV",
+        description: "First-time offenders eligible for mandatory bail upon completing 1/3rd of maximum sentence; others upon completing 1/2 (replaces Sec 436A CrPC).",
+      },
+      {
+        sectionNumber: "480",
+        title: "When bail may be taken in case of non-bailable offence",
+        chapter: "Chapter XXXV",
+        description: "Discretionary bail provisions before Magistrate for non-bailable offences with special leniency for women, children, and infirm (replaces Sec 437 CrPC).",
+      },
+      {
+        sectionNumber: "482",
+        title: "Direction for grant of bail to person apprehending arrest (Anticipatory Bail)",
+        chapter: "Chapter XXXV",
+        description: "Application before High Court or Court of Session for pre-arrest bail direction (replaces Sec 438 CrPC).",
+      },
+      {
+        sectionNumber: "530",
+        title: "Trial and proceedings to be held in electronic mode",
+        chapter: "Chapter XXXIX",
+        description: "All trials, inquiries, summons, warrants, witness examinations, evidence recording, and appeals may be held in electronic mode or audio-video conferencing.",
+      },
+    ],
+  },
+  {
+    id: "act_bsa_2023",
+    title: "The Bharatiya Sakshya Adhiniyam, 2023",
+    shortName: "BSA, 2023",
+    actNumber: "Act No. 47 of 2023",
+    enactmentDate: "25th December, 2023",
+    effectiveDate: "1st July, 2024",
+    category: "EVIDENCE_CODE",
+    categoryLabel: "Law of Evidence",
+    totalSections: 170,
+    totalChapters: 12,
+    fileFormat: "PDF",
+    fileName: "The_Bharatiya_Sakshya_Adhiniyam_2023.pdf",
+    fileSize: "980 KB",
+    fileUrl: "/documents/acts/The_Bharatiya_Sakshya_Adhiniyam_2023.pdf",
+    preambleVerbatim: `THE BHARATIYA SAKSHYA ADHINIYAM, 2023\n(ACT NO. 47 OF 2023)\n[25th December, 2023]\n\nAn Act to consolidate and to provide for general rules and principles of evidence for fair trial.\n\nBE it enacted by Parliament in the Seventy-fourth Year of the Republic of India as follows:—\n\nPART I - CHAPTER I - PRELIMINARY\n1. Short title, application and commencement.—\n(1) This Act may be called the Bharatiya Sakshya Adhiniyam, 2023.\n(2) It applies to all judicial proceedings in or before any Court, including Courts-martial, but not to affidavits presented to any Court or officer, nor to proceedings before an arbitrator.\n(3) It shall come into force on the 1st day of July, 2024.\n\n2. Definitions.—\n(1) In this Adhiniyam, unless the context otherwise requires,—\n(a) "Court" includes all Judges and Magistrates, and all persons, except arbitrators, legally authorised to take evidence;\n(b) "conclusive proof" when one fact is declared by this Adhiniyam to be conclusive proof of another;\n(c) "document" means any matter expressed or described upon any substance by means of letters, figures or marks, or by more than one of those means, intended to be used, or which may be used, for the purpose of recording that matter and includes electronic and digital records;\n(d) "evidence" means and includes—\n(i) all statements which the Court permits or requires to be made before it by witnesses, in relation to matters of fact under inquiry; such statements are called oral evidence;\n(ii) all documents including electronic or digital records produced for the inspection of the Court; such documents are called documentary evidence;\n(e) "fact" means and includes—\n(i) anything, state of things, or relation of things, capable of being perceived by the senses;\n(ii) any mental condition of which any person is conscious.`,
+    description: "An Act to consolidate and provide for general rules and principles of evidence for fair trial. Replaces the Indian Evidence Act, 1872 with full statutory recognition of digital/electronic records, hash verification, and Schedule Section 63(4)(c) certificates.",
+    chapters: [
+      { chapterNumber: "Part I, Chapter I", title: "Preliminary & Definitions", sectionsRange: "Sec 1 - 2" },
+      { chapterNumber: "Part II, Chapter II", title: "Relevancy of Facts (Res Gestae, Admissions, Confessions)", sectionsRange: "Sec 3 - 50" },
+      { chapterNumber: "Part III, Chapter III", title: "Facts Which Need Not Be Proved (Judicial Notice)", sectionsRange: "Sec 51 - 53" },
+      { chapterNumber: "Part III, Chapter IV", title: "Of Oral Evidence", sectionsRange: "Sec 54 - 55" },
+      { chapterNumber: "Part III, Chapter V", title: "Of Documentary & Electronic Evidence", sectionsRange: "Sec 56 - 93" },
+      { chapterNumber: "Part III, Chapter VI", title: "Exclusion of Oral Evidence by Documentary Evidence", sectionsRange: "Sec 94 - 103" },
+      { chapterNumber: "Part IV, Chapter VII", title: "Of the Burden of Proof & Presumptions", sectionsRange: "Sec 104 - 120" },
+      { chapterNumber: "Part IV, Chapter VIII", title: "Estoppel", sectionsRange: "Sec 121 - 123" },
+      { chapterNumber: "Part IV, Chapter IX", title: "Of Witnesses & Privileged Communications", sectionsRange: "Sec 124 - 139" },
+      { chapterNumber: "Part IV, Chapter X", title: "Of Examination of Witnesses", sectionsRange: "Sec 140 - 168" },
+      { chapterNumber: "Part IV, Chapter XI", title: "Improper Admission and Rejection of Evidence", sectionsRange: "Sec 169" },
+      { chapterNumber: "Part IV, Chapter XII", title: "Repeal and Savings", sectionsRange: "Sec 170" },
+    ],
+    keySections: [
+      {
+        sectionNumber: "2(1)(d)",
+        title: "Electronic and digital records as documents",
+        chapter: "Chapter I",
+        description: "Emails, server logs, smartphone messages, websites, locational data, voicemail on digital devices are legally recognised documents.",
+      },
+      {
+        sectionNumber: "23",
+        title: "Confession to police officer not to be proved",
+        chapter: "Chapter II",
+        description: "No confession made to a police officer or in police custody shall be proved against an accused unless made in immediate presence of Magistrate (replaces Sec 25/26 IEA). Proviso allows discovery of fact pursuant to disclosure (replaces Sec 27 IEA).",
+      },
+      {
+        sectionNumber: "26(a)",
+        title: "Dying declaration",
+        chapter: "Chapter II",
+        description: "Statement made by a person as to the cause of death or circumstances of the transaction resulting in death is relevant (replaces Sec 32(1) IEA).",
+      },
+      {
+        sectionNumber: "39",
+        title: "Opinions of experts (including electronic evidence examiners)",
+        chapter: "Chapter II",
+        description: "Opinions of persons skilled in foreign law, science, art, handwriting, finger impressions, or Examiner of Electronic Evidence under Section 79A IT Act are relevant.",
+      },
+      {
+        sectionNumber: "61",
+        title: "Admissibility of electronic or digital record",
+        chapter: "Chapter V",
+        description: "Electronic or digital records shall not be denied admissibility and have same legal effect, validity and enforceability as any paper document.",
+      },
+      {
+        sectionNumber: "63",
+        title: "Admissibility of electronic records and conditions",
+        chapter: "Chapter V",
+        description: "Conditions for computer output/electronic records admissibility and requirement of Certificate under Section 63(4)(c) in Schedule (Part A by Party, Part B by Expert with Hash SHA256/MD5).",
+      },
+      {
+        sectionNumber: "104",
+        title: "Burden of proof",
+        chapter: "Chapter VII",
+        description: "Whoever desires Court to give judgment as to any legal right or liability dependent on facts must prove those facts exist.",
+      },
+      {
+        sectionNumber: "117",
+        title: "Presumption as to abetment of suicide by married woman",
+        chapter: "Chapter VII",
+        description: "Court may presume abetment of suicide if woman commits suicide within 7 years of marriage and cruelty by husband/relative is shown (replaces 113A IEA).",
+      },
+      {
+        sectionNumber: "118",
+        title: "Presumption as to dowry death",
+        chapter: "Chapter VII",
+        description: "Court shall presume dowry death where cruelty/harassment for dowry soon before death is proved (replaces 113B IEA).",
+      },
+      {
+        sectionNumber: "120",
+        title: "Presumption as to absence of consent in rape prosecution",
+        chapter: "Chapter VII",
+        description: "In prosecution for rape where sexual intercourse is proved and victim states she did not consent, Court shall presume she did not consent (replaces 114A IEA).",
+      },
+      {
+        sectionNumber: "162",
+        title: "Refreshing memory by witness",
+        chapter: "Chapter X",
+        description: "Police investigating officers and witnesses may refresh memory by referring to writings (such as Case Diary) made at the time of transaction (replaces Sec 159 IEA).",
+      },
+    ],
+  },
+  {
+    id: "act_arms_1959",
+    title: "The Arms Act, 1959",
+    shortName: "Arms Act, 1959",
+    actNumber: "Act No. 54 of 1959",
+    enactmentDate: "23rd December, 1959",
+    effectiveDate: "1st October, 1962",
+    category: "SPECIAL_ACT",
+    categoryLabel: "Special & Local Law (Arms/Firearms)",
+    totalSections: 46,
+    totalChapters: 6,
+    fileFormat: "PDF",
+    fileName: "The_Arms_Act_1959.pdf",
+    fileSize: "640 KB",
+    fileUrl: "/documents/acts/The_Arms_Act_1959.pdf",
+    preambleVerbatim: `THE ARMS ACT, 1959\n(ACT NO. 54 OF 1959)\n[23rd December, 1959]\n\nAn Act to consolidate and amend the law relating to arms and ammunition.\n\nBE it enacted by Parliament in the Tenth Year of the Republic of India as follows:—\n\nCHAPTER I - PRELIMINARY\n1. Short title, extent and commencement.—\n(1) This Act may be called the Arms Act, 1959.\n(2) It extends to the whole of India.\n(3) It shall come into force on such date as the Central Government may, by notification in the Official Gazette, appoint.\n\n2. Definitions.—\n(1) In this Act, unless the context otherwise requires,—\n(a) "acquisition", with its grammatical variations and cognate expressions, includes hiring, accepting, or obtaining, or transferring or parting with the possession of arms or ammunition;\n(b) "ammunition" means ammunition for any firearm, and includes—\n(i) rockets, bombs, grenades, shells, and other like missiles;\n(ii) articles designed for use in any firearm or for explosion;\n(c) "arms" means articles of any description designed or adapted as weapons for offence or defence, other than articles designed solely for domestic or agricultural uses;\n(d) "district magistrate", in relation to any area for which a Commissioner of Police has been appointed, means the Commissioner of Police thereof;\n(e) "firearms" means arms of any description designed or adapted to discharge a projectile or projectiles of any kind by the action of any explosive or other forms of energy;\n(ea) "licence" means a licence granted in accordance with the regulations made under this Act;\n(h) "prohibited ammunition" means any ammunition, containing, or designed or adapted to contain, any noxious liquid, gas or other such thing;\n(i) "prohibited arms" means firearms so designed or adapted that, if pressure is applied to the trigger, missiles continue to be discharged until pressure is removed or the magazine containing the missiles is empty.`,
+    description: "An Act to consolidate and amend the law relating to arms and ammunition. Regulates the acquisition, possession, manufacture, sale, transport of firearms, prohibitions on prohibited bore weapons, and stringent punishments for illicit weapons and celebratory firing.",
+    chapters: [
+      { chapterNumber: "Chapter I", title: "Preliminary", sectionsRange: "Sec 1 - 2" },
+      { chapterNumber: "Chapter II", title: "Acquisition, Possession, Manufacture, Sale, Import, Export & Transport", sectionsRange: "Sec 3 - 12" },
+      { chapterNumber: "Chapter III", title: "Provisions Relating to Licences", sectionsRange: "Sec 13 - 18" },
+      { chapterNumber: "Chapter IV", title: "Powers and Procedure (Police Search, Seizure & Arrest)", sectionsRange: "Sec 19 - 24B" },
+      { chapterNumber: "Chapter V", title: "Offences and Penalties", sectionsRange: "Sec 25 - 33" },
+      { chapterNumber: "Chapter VI", title: "Miscellaneous & Sanctions", sectionsRange: "Sec 34 - 46" },
+    ],
+    keySections: [
+      {
+        sectionNumber: "3",
+        title: "Licence for acquisition and possession of firearms and ammunition",
+        chapter: "Chapter II",
+        description: "No person shall acquire, have in possession or carry firearms/ammunition without a licence. Individual firearm holding restricted to maximum of two firearms.",
+        punishment: "Contravention punishable under Section 25(1B)",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Magistrate of first class",
+      },
+      {
+        sectionNumber: "7",
+        title: "Prohibition of acquisition or possession of prohibited arms or prohibited ammunition",
+        chapter: "Chapter II",
+        description: "Absolute prohibition on acquisition, possession, manufacture, sale, conversion or repair of automatic/prohibited bore arms without Central Government authorization.",
+        punishment: "Punishable under Section 25(1A)",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Court of Session",
+      },
+      {
+        sectionNumber: "13",
+        title: "Grant of licences & Police verification report",
+        chapter: "Chapter III",
+        description: "Licensing authority calls for report from officer in charge of nearest police station; police officer must send report within prescribed timeline.",
+      },
+      {
+        sectionNumber: "19",
+        title: "Powers to demand production of licence, etc.",
+        chapter: "Chapter IV",
+        description: "Any police officer may demand production of licence from any person carrying firearms/ammunition and seize weapons if refused.",
+      },
+      {
+        sectionNumber: "20",
+        title: "Arrest of persons conveying arms under suspicious circumstances",
+        chapter: "Chapter IV",
+        description: "Police officer may arrest without warrant any person carrying or conveying arms under suspicious circumstances or with intent for unlawful purpose.",
+      },
+      {
+        sectionNumber: "21",
+        title: "Deposit of arms on possession ceasing to be lawful",
+        chapter: "Chapter IV",
+        description: "Arms and ammunition must be deposited at nearest police station upon expiration, suspension, or revocation of arms licence.",
+      },
+      {
+        sectionNumber: "23",
+        title: "Search of vessels, vehicles for arms, etc.",
+        chapter: "Chapter IV",
+        description: "Police officer may stop and search any vessel, vehicle, or conveyance and seize illegal arms found therein.",
+      },
+      {
+        sectionNumber: "25(1)",
+        title: "Punishment for manufacture, sale, transfer, or illegal import/export of arms",
+        chapter: "Chapter V",
+        description: "Manufacturing, procuring, converting, repairing, selling unlicensed firearms or ammunition.",
+        punishment: "Imprisonment not less than 7 years extending to Life imprisonment, and fine",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Court of Session",
+      },
+      {
+        sectionNumber: "25(1A)",
+        title: "Possession or carrying of prohibited arms (Automatic weapons / Military bore)",
+        chapter: "Chapter V",
+        description: "Acquiring, possessing or carrying prohibited arms or prohibited ammunition in contravention of Section 7.",
+        punishment: "Imprisonment 7 to 14 years, and fine",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Court of Session",
+      },
+      {
+        sectionNumber: "25(1AB)",
+        title: "Snatching firearm from police or armed forces by force",
+        chapter: "Chapter V",
+        description: "Whoever, by using force, takes firearm from police or armed forces personnel.",
+        punishment: "Imprisonment 10 years to Life imprisonment, and fine",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Court of Session",
+      },
+      {
+        sectionNumber: "25(1B)",
+        title: "Unlicensed possession of firearms (Country-made pistol / Desi Katta)",
+        chapter: "Chapter V",
+        description: "Acquiring, possessing or carrying any firearm or ammunition without licence under Section 3.",
+        punishment: "Imprisonment 2 to 5 years, and fine",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Magistrate of first class",
+      },
+      {
+        sectionNumber: "25(9)",
+        title: "Celebratory gunfire / Rash or negligent firearm discharge",
+        chapter: "Chapter V",
+        description: "Using firearm in a rash or negligent manner or celebratory gunfire in marriages, public gatherings, religious places endangering human life.",
+        punishment: "Imprisonment up to 2 years, or fine up to ₹1,00,000, or both",
+        cognizable: "Cognizable",
+        bailable: "Bailable",
+        triableBy: "Magistrate of first class",
+      },
+      {
+        sectionNumber: "27(1)",
+        title: "Punishment for using arms in contravention of Section 5",
+        chapter: "Chapter V",
+        description: "Using arms or ammunition in contravention of law.",
+        punishment: "Imprisonment 3 to 7 years, and fine (Death or Life if death results under Sec 27(3))",
+        cognizable: "Cognizable",
+        bailable: "Non-bailable",
+        triableBy: "Court of Session",
+      },
+      {
+        sectionNumber: "35",
+        title: "Criminal responsibility of persons in joint occupation of premises",
+        chapter: "Chapter VI",
+        description: "All persons in joint occupation of premises/vehicle where illegal arms are recovered are liable unless absence of knowledge is proved.",
+      },
+      {
+        sectionNumber: "39",
+        title: "Previous sanction of District Magistrate necessary for prosecution",
+        chapter: "Chapter VI",
+        description: "No prosecution shall be instituted against any person in respect of offence under section 3 without previous sanction of District Magistrate.",
+      },
+    ],
+  },
+  {
+    id: "act_benami_1988",
+    title: "The Prohibition of Benami Property Transactions Act, 1988",
+    shortName: "Benami Act, 1988",
+    actNumber: "Act No. 45 of 1988",
+    enactmentDate: "5th September, 1988",
+    effectiveDate: "19th May, 1988 (Amended 2016)",
+    category: "ECONOMIC_PROPERTY",
+    categoryLabel: "Economic & Property Law (Anti-Corruption)",
+    totalSections: 72,
+    totalChapters: 8,
+    fileFormat: "PDF",
+    fileName: "The_Prohibition_of_Benami_Property_Transactions_Act_1988.pdf",
+    fileSize: "720 KB",
+    fileUrl: "/documents/acts/The_Prohibition_of_Benami_Property_Transactions_Act_1988.pdf",
+    preambleVerbatim: `THE PROHIBITION OF BENAMI PROPERTY TRANSACTIONS ACT, 1988\n(ACT NO. 45 OF 1988)\n[5th September, 1988]\n\nAn Act to prohibit benami transactions and the right to recover property held benami and for matters connected therewith or incidental thereto.\n\nBE it enacted by Parliament in the Thirty-ninth Year of the Republic of India as follows:—\n\nCHAPTER I - PRELIMINARY\n1. Short title, extent and commencement.—\n(1) This Act may be called the Prohibition of Benami Property Transactions Act, 1988.\n(2) It extends to the whole of India.\n(3) The provisions of sections 3, 5 and 8 shall come into force at once, and the remaining provisions of this Act shall be deemed to have come into force on the 19th day of May, 1988.\n\n2. Definitions.—\nIn this Act, unless the context otherwise requires,—\n(1) "Adjudicating Authority" means the Adjudicating Authority appointed under section 7;\n(8) "benami property" means any property which is the subject matter of a benami transaction and also includes the proceeds from such property;\n(9) "benami transaction" means,—\n(A) a transaction or an arrangement—\n(a) where a property is transferred to, or is held by, a person, and the consideration for such property has been provided, or paid by, another person; and\n(b) the property is held for the immediate or future benefit, direct or indirect, of the person who has provided the consideration;\n(B) a transaction or an arrangement in respect of a property carried out or made in a fictitious name; or\n(C) a transaction or an arrangement in respect of a property where the owner of the property is not known or is untraceable; or\n(D) a transaction or an arrangement in respect of a property where the person providing the consideration is not traceable or is fictitious.`,
+    description: "An Act to prohibit benami transactions and the right to recover property held benami. Provides for attachment, adjudication, and confiscation of benami properties by Central Government, along with rigorous penalties for beneficial owners and benamidars.",
+    chapters: [
+      { chapterNumber: "Chapter I", title: "Preliminary & Definitions", sectionsRange: "Sec 1 - 2" },
+      { chapterNumber: "Chapter II", title: "Prohibition of Benami Transactions & Confiscation", sectionsRange: "Sec 3 - 6" },
+      { chapterNumber: "Chapter III", title: "Authorities & Powers (Initiating Officer, Approving Authority)", sectionsRange: "Sec 7 - 23" },
+      { chapterNumber: "Chapter IV", title: "Attachment, Adjudication and Confiscation of Property", sectionsRange: "Sec 24 - 29" },
+      { chapterNumber: "Chapter V", title: "Appellate Tribunal", sectionsRange: "Sec 30 - 49" },
+      { chapterNumber: "Chapter VI", title: "Special Courts", sectionsRange: "Sec 50 - 52" },
+      { chapterNumber: "Chapter VII", title: "Offences and Prosecution", sectionsRange: "Sec 53 - 55A" },
+      { chapterNumber: "Chapter VIII", title: "Miscellaneous (Exemptions & Overriding Effect)", sectionsRange: "Sec 56 - 72" },
+    ],
+    keySections: [
+      {
+        sectionNumber: "2(8)",
+        title: "Benami property defined",
+        chapter: "Chapter I",
+        description: "Any property which is the subject matter of a benami transaction and includes the proceeds generated from such property.",
+      },
+      {
+        sectionNumber: "2(9)",
+        title: "Benami transaction defined",
+        chapter: "Chapter I",
+        description: "Transaction where consideration is paid by another person and property is held for immediate or future benefit of the person providing consideration, or in fictitious names.",
+      },
+      {
+        sectionNumber: "3",
+        title: "Prohibition of benami transactions",
+        chapter: "Chapter II",
+        description: "No person shall enter into any benami transaction. Absolute statutory bar.",
+        punishment: "Punishable under Chapter VII (1 to 7 years rigorous imprisonment)",
+        cognizable: "Non-cognizable",
+        bailable: "Bailable",
+        triableBy: "Special Court",
+      },
+      {
+        sectionNumber: "5",
+        title: "Property held benami liable to confiscation",
+        chapter: "Chapter II",
+        description: "Any property, which is subject matter of benami transaction, shall be liable to be confiscated by the Central Government without compensation.",
+      },
+      {
+        sectionNumber: "6",
+        title: "Prohibition on re-transfer of property by benamidar",
+        chapter: "Chapter II",
+        description: "No benamidar shall re-transfer benami property to beneficial owner. Any such transaction is deemed null and void.",
+      },
+      {
+        sectionNumber: "20",
+        title: "Police and other officers to assist in inquiry and enforcement",
+        chapter: "Chapter III",
+        description: "Officers of Income-tax, Customs, Police, and local authorities are statutorily bound to assist the authorities in enforcement of the Act.",
+      },
+      {
+        sectionNumber: "24",
+        title: "Notice and provisional attachment of property",
+        chapter: "Chapter IV",
+        description: "Initiating Officer may issue show-cause notice and provisionally attach property with Approving Authority permission for up to four months.",
+      },
+      {
+        sectionNumber: "26",
+        title: "Adjudication of benami property by Adjudicating Authority",
+        chapter: "Chapter IV",
+        description: "Adjudicating Authority issues notice to benamidar and beneficial owner, conducts enquiry, and passes order within one year.",
+      },
+      {
+        sectionNumber: "27",
+        title: "Confiscation and vesting of benami property",
+        chapter: "Chapter IV",
+        description: "Upon adjudication holding property to be benami, property vests absolutely in Central Government free of all encumbrances.",
+      },
+      {
+        sectionNumber: "29",
+        title: "Possession of confiscated property & Police requisition",
+        chapter: "Chapter IV",
+        description: "Administrator takes physical possession; may requisition police officer services to forcibly take over possession.",
+      },
+      {
+        sectionNumber: "53",
+        title: "Penalty for benami transaction",
+        chapter: "Chapter VII",
+        description: "Entering into benami transaction to defeat provisions of law, evade taxes, or avoid creditors.",
+        punishment: "Rigorous imprisonment 1 to 7 years + Fine up to 25% of fair market value of property",
+        cognizable: "Non-cognizable",
+        bailable: "Bailable",
+        triableBy: "Special Court",
+      },
+      {
+        sectionNumber: "54",
+        title: "Penalty for false information or false document",
+        chapter: "Chapter VII",
+        description: "Knowingly giving false information or furnishing false documents to any authority under the Act.",
+        punishment: "Rigorous imprisonment 6 months to 5 years + Fine up to 10% of fair market value",
+        cognizable: "Non-cognizable",
+        bailable: "Bailable",
+        triableBy: "Special Court",
+      },
+      {
+        sectionNumber: "55A",
+        title: "Power to tender immunity from prosecution",
+        chapter: "Chapter VII",
+        description: "Initiating Officer may tender immunity from prosecution to benamidar on making full and true disclosure of circumstances.",
+      },
+    ],
+  },
+];
+
+const LOCAL_STORAGE_KEY = "cms_acts_sections_documents";
+const IDB_NAME = "CMS_LEGAL_ACTS_DB_V1";
+const IDB_STORE = "custom_acts";
+const IDB_VERSION = 1;
+
+// In-memory cache of custom acts
+let inMemoryCustomActs: LegalActItem[] = [];
+let isIdbInitialized = false;
+
+// IndexedDB Helper Functions
+function openActsIdb(): Promise<IDBDatabase> {
+  return new Promise((resolve, reject) => {
+    if (typeof window === "undefined" || !window.indexedDB) {
+      reject(new Error("IndexedDB not supported"));
+      return;
+    }
+    const request = window.indexedDB.open(IDB_NAME, IDB_VERSION);
+    request.onupgradeneeded = () => {
+      const db = request.result;
+      if (!db.objectStoreNames.contains(IDB_STORE)) {
+        db.createObjectStore(IDB_STORE, { keyPath: "id" });
+      }
+    };
+    request.onsuccess = () => resolve(request.result);
+    request.onerror = () => reject(request.error);
+  });
+}
+
+async function saveActToIdb(act: LegalActItem): Promise<void> {
+  try {
+    const db = await openActsIdb();
+    return new Promise((resolve, reject) => {
+      const tx = db.transaction(IDB_STORE, "readwrite");
+      tx.objectStore(IDB_STORE).put(act);
+      tx.oncomplete = () => resolve();
+      tx.onerror = () => reject(tx.error);
+    });
+  } catch (err) {
+    console.warn("Could not save act to IndexedDB:", err);
+  }
+}
+
+async function loadActsFromIdb(): Promise<LegalActItem[]> {
+  try {
+    const db = await openActsIdb();
+    return new Promise((resolve, reject) => {
+      const tx = db.transaction(IDB_STORE, "readonly");
+      const request = tx.objectStore(IDB_STORE).getAll();
+      request.onsuccess = () => resolve(request.result || []);
+      request.onerror = () => reject(request.error);
+    });
+  } catch (err) {
+    console.warn("Could not load acts from IndexedDB:", err);
+    return [];
+  }
+}
+
+async function deleteActFromIdb(id: string): Promise<void> {
+  try {
+    const db = await openActsIdb();
+    return new Promise((resolve, reject) => {
+      const tx = db.transaction(IDB_STORE, "readwrite");
+      tx.objectStore(IDB_STORE).delete(id);
+      tx.oncomplete = () => resolve();
+      tx.onerror = () => reject(tx.error);
+    });
+  } catch (err) {
+    console.warn("Could not delete act from IndexedDB:", err);
+  }
+}
+
+// Safely save lightweight copy in localStorage without throwing QuotaExceededError
+function saveLightweightToLocalStorage(acts: LegalActItem[]) {
+  if (typeof window === "undefined" || !window.localStorage) return;
+  try {
+    // Strip heavy fileDataUrl (> 20KB) for localStorage to stay well below 5MB limit
+    const lightweight = acts.map((act) => {
+      if (act.fileDataUrl && act.fileDataUrl.length > 20000) {
+        const { fileDataUrl, ...rest } = act;
+        return { ...rest, hasLargeFileInIdb: true };
+      }
+      return act;
+    });
+    localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(lightweight));
+  } catch (e: any) {
+    console.warn("LocalStorage quota reached, storing metadata only:", e?.message);
+    try {
+      // If still exceeding, strip all fileDataUrl
+      const minimal = acts.map(({ fileDataUrl, ...rest }) => rest);
+      localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(minimal));
+    } catch {
+      // Ignore if localStorage completely full; IndexedDB & in-memory handle it
+    }
+  }
+}
+
+export const ActsService = {
+  // Synchronous retrieval from in-memory cache + localStorage + built-ins
+  getAllActs(): LegalActItem[] {
+    if (typeof window === "undefined") {
+      return BUILTIN_LEGAL_ACTS;
+    }
+
+    // If in-memory is empty, try loading from localStorage first
+    if (inMemoryCustomActs.length === 0) {
+      try {
+        const stored = localStorage.getItem(LOCAL_STORAGE_KEY);
+        if (stored) {
+          const parsed = JSON.parse(stored);
+          if (Array.isArray(parsed) && parsed.length > 0) {
+            inMemoryCustomActs = parsed;
+          }
+        }
+      } catch (err) {
+        console.warn("Failed to parse custom acts from localStorage:", err);
+      }
+    }
+
+    // Trigger async load from IndexedDB in the background if not done yet
+    if (!isIdbInitialized) {
+      isIdbInitialized = true;
+      loadActsFromIdb().then((idbActs) => {
+        if (idbActs && idbActs.length > 0) {
+          // Merge IndexedDB acts (which have full fileDataUrl) with in-memory acts
+          const map = new Map<string, LegalActItem>();
+          inMemoryCustomActs.forEach((a) => map.set(a.id, a));
+          idbActs.forEach((a) => map.set(a.id, a)); // IndexedDB version takes precedence
+          inMemoryCustomActs = Array.from(map.values());
+        }
+      }).catch(() => {});
+    }
+
+    const customIds = new Set(inMemoryCustomActs.map((c) => c.id));
+    const nonDuplicateBuiltins = BUILTIN_LEGAL_ACTS.filter((b) => !customIds.has(b.id));
+    return [...nonDuplicateBuiltins, ...inMemoryCustomActs];
+  },
+
+  // Asynchronous retrieval (guaranteed full data from IndexedDB)
+  async getAllActsAsync(): Promise<LegalActItem[]> {
+    if (typeof window === "undefined") {
+      return BUILTIN_LEGAL_ACTS;
+    }
+
+    try {
+      const idbActs = await loadActsFromIdb();
+      if (idbActs && idbActs.length > 0) {
+        const map = new Map<string, LegalActItem>();
+        inMemoryCustomActs.forEach((a) => map.set(a.id, a));
+        idbActs.forEach((a) => map.set(a.id, a));
+        inMemoryCustomActs = Array.from(map.values());
+      }
+    } catch (e) {
+      console.warn("Could not load from IndexedDB:", e);
+    }
+
+    return this.getAllActs();
+  },
+
+  getActById(id: string): LegalActItem | undefined {
+    const all = this.getAllActs();
+    return all.find((a) => a.id === id);
+  },
+
+  async addCustomAct(act: Omit<LegalActItem, "id" | "isCustomUpload" | "uploadedAt">): Promise<LegalActItem> {
+    const newAct: LegalActItem = {
+      ...act,
+      id: `act_${Date.now()}_${Math.random().toString(36).substring(2, 7)}`,
+      isCustomUpload: true,
+      uploadedAt: new Date().toISOString(),
+    };
+
+    // 1. Immediately store in in-memory cache
+    inMemoryCustomActs = [newAct, ...inMemoryCustomActs.filter((a) => a.id !== newAct.id)];
+
+    // 2. Persist full document and data in IndexedDB (handles gigabytes, no quota errors)
+    await saveActToIdb(newAct);
+
+    // 3. Persist lightweight metadata in localStorage
+    saveLightweightToLocalStorage(inMemoryCustomActs);
+
+    return newAct;
+  },
+
+  async deleteCustomAct(id: string): Promise<boolean> {
+    inMemoryCustomActs = inMemoryCustomActs.filter((a) => a.id !== id);
+    saveLightweightToLocalStorage(inMemoryCustomActs);
+    await deleteActFromIdb(id);
+    return true;
+  },
+};
